@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background: #6d23b6;
+    height: 100vh;
+    width: 100%;
+}
+
+.quoteBox {
+    background: #00ffc2;
+    width: 76vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 53vh;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.quoteBox h2 {
+    font-size: 33px;
+    margin-bottom: 42px;
+    position: relative;
+    text-shadow: 17px 8px 12px black;
+}
+
+.quoteBox h2::after {
+    content: '';
+    width: 75px;
+    height: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: #6d23b6;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+.quoteBox blockquote {
+    font-size: 25px;
+    min-height: 112px;
+}
+
+.quoteBox blockquote::before,
+.quoteBox blockquote::after {
+    content: '"';
+}
+
+.quoteBox span {
+    display: block;
+    margin-top: 12px;
+    float: right;
+    position: relative;
+    margin-right: 0.6rem;
+}
+
+.quoteBox span::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: #6d23b6;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+}
+
+.quoteBox div {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.quoteBox button {
+    background-color: #6d23b6;
+    color: #290025;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+    border: 1px solid #6d23b6;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.quoteBox button img {
+    margin: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.quoteBox button:hover:nth-child(1) {
+    background: #00ffc2;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.quoteBox button:nth-child(2) {
+    background: transparent;
+    color: #42a5f5;
+
+}
+
+.quoteBox button:hover:nth-child(2) {
+    background: #6d23b6;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.quoteBox button:nth-child(3) {
+    background: transparent;
+    color: white;
+
+}
+
+.quoteBox button:hover:nth-child(3) {
+    background: #6d23b6;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.quoteBox button:nth-child(4) {
+    background: transparent;
+    color: #d00000;
+}
+
+.quoteBox button:hover:nth-child(4) {
+    background: #6d23b6;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.quoteBox button:nth-child(5) {
+    background: transparent;
+    color: blue;
+
+}
+
+.quoteBox button:hover:nth-child(5) {
+    background: #6d23b6;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .quoteBox div {
+        display: inline;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .quoteBox div {
+        display: inline;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .quoteBox {
+        height: 530px;
+    }
+
+    .quoteBox div {
+        display: inline;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .quoteBox {
+        height: 630px;
+    }
+
+    .quoteBox div {
+        display: inline;
+        justify-content: center;
+    }
+}
